@@ -757,6 +757,13 @@ p {
   background: var(--clr-gray-10);
   /* background: var(--clr-primary-2); */
 }
+.card-image-container {
+  padding: 1rem 1rem;
+}
+.card-image-container img {
+  width: 100%;
+  object-fit: cover;
+}
 .card {
   /*height: 27rem;*/ /* Important because we will be setting both .card-front and .card-back to be position absolute. */
   height: 30rem;
