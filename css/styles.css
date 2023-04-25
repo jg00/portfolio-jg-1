@@ -400,6 +400,11 @@ p {
   justify-self: center;
   display: none;
 }
+
+.about-info {
+  text-align: center;
+}
+
 @media screen and (min-width: 992px) {
   .about-center {
     /* grid-template-columns: 1fr 1fr; */
@@ -764,6 +769,12 @@ p {
   width: 100%;
   object-fit: cover;
 }
+
+/* Temporarily hide - change host site */
+.card.hidden {
+  display: none;
+}
+
 .card {
   /*height: 27rem;*/ /* Important because we will be setting both .card-front and .card-back to be position absolute. */
   height: 30rem;
